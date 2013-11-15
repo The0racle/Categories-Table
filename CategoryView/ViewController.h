@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CategoryTable.h"
+#import "AppDelegate.h"
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UILabel *selectedCategory;
+@property (strong, nonatomic) CategoryTable *categoryTable;
+@property AppDelegate *delegate;
+
+- (IBAction)pickCategories:(id)sender;
 
 @end

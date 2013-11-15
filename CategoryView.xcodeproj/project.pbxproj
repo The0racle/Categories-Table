@@ -18,6 +18,10 @@
 		778CBCF917823F41001BA289 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 778CBCF817823F41001BA289 /* Default-568h@2x.png */; };
 		778CBCFC17823F41001BA289 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778CBCFA17823F41001BA289 /* MainStoryboard.storyboard */; };
 		778CBCFF17823F41001BA289 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778CBCFE17823F41001BA289 /* ViewController.m */; };
+		778CBD131782467A001BA289 /* CategoryTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 778CBD111782467A001BA289 /* CategoryTable.m */; };
+		778CBD141782467A001BA289 /* CategoryTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 778CBD121782467A001BA289 /* CategoryTable.xib */; };
+		778CBD1717824DEA001BA289 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 778CBD1617824DEA001BA289 /* CategoryCell.xib */; };
+		778CBD1A17824E00001BA289 /* CategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 778CBD1917824E00001BA289 /* CategoryCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,12 @@
 		778CBCFB17823F41001BA289 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		778CBCFD17823F41001BA289 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		778CBCFE17823F41001BA289 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		778CBD101782467A001BA289 /* CategoryTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTable.h; sourceTree = "<group>"; };
+		778CBD111782467A001BA289 /* CategoryTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTable.m; sourceTree = "<group>"; };
+		778CBD121782467A001BA289 /* CategoryTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoryTable.xib; path = CategoryView/CategoryTable.xib; sourceTree = "<group>"; };
+		778CBD1617824DEA001BA289 /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		778CBD1817824E00001BA289 /* CategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCell.h; sourceTree = "<group>"; };
+		778CBD1917824E00001BA289 /* CategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		778CBCD617823F41001BA289 = {
 			isa = PBXGroup;
 			children = (
+				778CBD15178247B0001BA289 /* NIB Files */,
 				778CBCE817823F41001BA289 /* CategoryView */,
 				778CBCE117823F41001BA289 /* Frameworks */,
 				778CBCE017823F41001BA289 /* Products */,
@@ -89,6 +100,10 @@
 				778CBCFD17823F41001BA289 /* ViewController.h */,
 				778CBCFE17823F41001BA289 /* ViewController.m */,
 				778CBCE917823F41001BA289 /* Supporting Files */,
+				778CBD101782467A001BA289 /* CategoryTable.h */,
+				778CBD111782467A001BA289 /* CategoryTable.m */,
+				778CBD1817824E00001BA289 /* CategoryCell.h */,
+				778CBD1917824E00001BA289 /* CategoryCell.m */,
 			);
 			path = CategoryView;
 			sourceTree = "<group>";
@@ -105,6 +120,15 @@
 				778CBCF817823F41001BA289 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		778CBD15178247B0001BA289 /* NIB Files */ = {
+			isa = PBXGroup;
+			children = (
+				778CBD121782467A001BA289 /* CategoryTable.xib */,
+				778CBD1617824DEA001BA289 /* CategoryCell.xib */,
+			);
+			name = "NIB Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +187,8 @@
 				778CBCF717823F41001BA289 /* Default@2x.png in Resources */,
 				778CBCF917823F41001BA289 /* Default-568h@2x.png in Resources */,
 				778CBCFC17823F41001BA289 /* MainStoryboard.storyboard in Resources */,
+				778CBD141782467A001BA289 /* CategoryTable.xib in Resources */,
+				778CBD1717824DEA001BA289 /* CategoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +202,8 @@
 				778CBCEF17823F41001BA289 /* main.m in Sources */,
 				778CBCF317823F41001BA289 /* AppDelegate.m in Sources */,
 				778CBCFF17823F41001BA289 /* ViewController.m in Sources */,
+				778CBD131782467A001BA289 /* CategoryTable.m in Sources */,
+				778CBD1A17824E00001BA289 /* CategoryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

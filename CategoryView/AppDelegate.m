@@ -13,6 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    _categoryTable = [[CategoryTable alloc]initWithNibName:@"CategoryTable" bundle:nil];
     return YES;
 }
 							
